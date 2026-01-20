@@ -1,8 +1,8 @@
 I am planning on learning the foundations of web development
 so I researched and heard I need to study:
-# HTML
-# CSS
-# Javascript
+- HTML
+- CSS
+- Javascript
 Then I want to create projects that test my understanding of them.
 
 Feel free to offer me advice. I would really appreciate it
