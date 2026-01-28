@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitting Forms</title>
+</head>
+<body>
+    <h2>Submitting Forms</h2>
+    <p>When a user fills out a form and clicks the submit button, the form data is sent to a server for processing. The way the data is sent depends on the <code>method</code> attribute of the <code>&lt;form&gt;</code> element.</p>
+    
+    <h3>Form Submission Methods</h3>
+    <ul>
+        <li><strong>GET</strong>: Appends the form data to the URL in name/value pairs. This method is suitable for non-sensitive data and has length limitations. Example: <code>&lt;form action="/submit" method="get"&gt;</code></li>
+        <li><strong>POST</strong>: Sends the form data as part of the HTTP request body. This method is more secure for sensitive data and does not have length limitations. Example: <code>&lt;form action="/submit" method="post"&gt;</code></li>
+    </ul>
+    <h3>Form Action Attribute</h3>
+    <p>The <code>action</code> attribute of the <code>&lt;form&gt;</code> element specifies the URL where the form data should be sent for processing. If the <code>action</code> attribute is omitted, the form data is sent to the same page that contains the form.</p>
+    
+    <h3>Example of a Form Submission</h3>
+    <form action="/submit_form" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
