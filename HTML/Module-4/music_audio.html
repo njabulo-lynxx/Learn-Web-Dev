@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Audio to Web Pages</title>
+</head>
+<body>
+    <h1>Adding Audio to Web Pages</h1>
+    <p>You can use the <code>&lt;audio&gt;</code> element to embed sound content in your web pages. The <code>&lt;audio&gt;</code> element supports various audio formats, including MP3, WAV, and Ogg.</p>
+
+    <h2>Basic Usage</h2>
+    <p>To add an audio file to your web page, you can use the following syntax:</p>
+    <pre><code>&lt;audio controls&gt;
+  &lt;source src="audiofile.mp3" type="audio/mpeg"&gt;
+  &lt;source src="audiofile.ogg" type="audio/ogg"&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+
+    <h2>Attributes</h2>
+    <ul>
+        <li><strong>controls</strong>: Adds audio controls like play, pause, and volume.</li>
+        <li><strong>autoplay</strong>: Automatically starts playing the audio when the page loads.</li>
+        <li><strong>loop</strong>: Repeats the audio indefinitely.</li>
+        <li><strong>muted</strong>: Mutes the audio by default.</li>
+    </ul>
+
+    <h2>Example</h2>
+    <p>Here is an example of how to use the <code>&lt;audio&gt;</code> element:</p>
+    <pre><code>&lt;audio controls autoplay loop&gt;
+    &lt;source src="music.mp3" type="audio/mpeg"&gt;
+    &lt;source src="music.ogg" type="audio/ogg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+
+</body>
+</html>
