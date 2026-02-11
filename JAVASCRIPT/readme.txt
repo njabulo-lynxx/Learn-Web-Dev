@@ -1,1 +1,1 @@
-I will learn JavaScript
+This is here to add the folder to GitHub
