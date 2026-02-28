@@ -4,9 +4,7 @@
         <title>Fruit Parade</title>
     </head>
     <body>
-        <header>
-            <h1>Fruit Parade</h1>
-        </header>
+        <?php include'header.html'; ?>
 
         <nav>
             <a href="index.html">Home</a>
