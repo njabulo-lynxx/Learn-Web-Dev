@@ -6,16 +6,8 @@
     <body>
         <?php include 'header.html'; ?>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-
         <?php include 'home.html'; ?>
 
-        <footer>
-            <p>contact details, copyright and other important stuff go here..</p>
-        </footer>
+        <?php include 'footer.html'; ?>
     </body>
 </html>
