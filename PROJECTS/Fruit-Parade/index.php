@@ -4,7 +4,7 @@
         <title>Fruit Parade</title>
     </head>
     <body>
-        <?php include'header.html'; ?>
+        <?php include 'header.html'; ?>
 
         <nav>
             <a href="index.html">Home</a>
@@ -12,23 +12,7 @@
             <a href="#">Contact</a>
         </nav>
 
-        <main>
-            <h2>Countdown To The Annual Fruit Parade</h2>
-            <p>Come one come all to the upcoming annual fruit parade! <br>
-                We got it all: games, music, dancing and most importantly fruits! We got a lot of fruits!
-            </p>
-
-            <ul>
-                <li>Oranges</li>
-                <li>Pineapple</li>
-                <li>Grapes</li>
-                <li>Peaches</li>
-                <li>many more...</li>
-            </ul>
-
-            <p>Be sure to tune in to this website every Monday, Wednesday and Friday afternoons for <br>
-                more announcements. Until then, have a lovely rest of your day!</p>
-        </main>
+        <?php include 'home.html'; ?>
 
         <footer>
             <p>contact details, copyright and other important stuff go here..</p>
